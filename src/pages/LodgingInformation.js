@@ -1,19 +1,14 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
-import LogoRed from '../components/LogoRed';
-import LogoWhite from '../components/LogoWhite';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+
 
 const LodgingInformation = () => {
     return (
         <div>
-        <header>
-            <LogoRed />
-            <Navigation />
-        </header>
-        <footer>
-            <LogoWhite />
-        </footer>
-        </div>
+        <Header />
+        <Footer />
+    </div>
     );
 };
 

@@ -1,0 +1,14 @@
+@import "./settings.scss";
+@import "./components/header";
+@import "./components/navigation";
+@import "./components/footer";
+
+header {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+footer {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
