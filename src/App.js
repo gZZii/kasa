@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 
+// import du fichier json fourni au début du projet
+import data from "./data.json";
+
 function App() {
   return (
     <div className="App">
