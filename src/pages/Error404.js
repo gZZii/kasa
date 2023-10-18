@@ -9,7 +9,6 @@ const Error404 = () => {
     return (
         <div>
             <Header />
-            <Banner />
             <Footer />
         </div>
     );

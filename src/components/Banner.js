@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Banner (props){
+const Banner = (props) => {
  
     return (
         <div className='banner' style={{backgroundImage: `url(${props.img})`}}>
