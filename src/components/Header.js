@@ -1,11 +1,12 @@
 import React from 'react';
-import LogoRed from './LogoRed';
 import Navigation from './Navigation';
 
 const Header = () => {
     return (
         <header>
-            <LogoRed />
+            <div className="logo-red">
+                <img src="./LogoRed.png" alt="logo du site" />
+            </div>
             <Navigation />
         </header>
     );

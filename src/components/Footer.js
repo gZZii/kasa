@@ -1,10 +1,11 @@
 import React from 'react';
-import LogoWhite from './LogoWhite';
 
 const Footer = () => {
     return (
         <footer>
-            <LogoWhite />
+            <div className="logo-white">
+                <img src="./LogoWhite.png" alt="logo du site" />
+            </div>
             <h3>© 2020 Kasa. All rights reserved</h3>
         </footer>
     );
