@@ -1,4 +1,39 @@
-.collapse{
+// .collapse{
+//     margin: 20px auto;
+//     width: 80%;
+// }
+
+// .collapse-bandeau {
+//     height: 52px;
+//     background-color: #FF6060;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     padding-left: 20px;
+//     padding-right: 20px;
+//     border-radius: 5px;
+//     color: white;
+//     font-size: 24px;
+// }
+
+// .vector {
+//     width: 24px;
+//     height: 14px;
+//     cursor: pointer;
+// }
+
+// .collapse-content {
+//     padding: 10px; 
+//     background-color: #f6f6f6; 
+//     color: #FF6060; 
+//     border-radius: 5px;
+//     padding-left: 20px;
+//     padding-right: 20px;
+//     animation-name: slidein;
+//     animation-duration: 0.5s;
+// }
+
+.collapse {
     margin: 20px auto;
     width: 80%;
 }
@@ -20,13 +55,27 @@
     width: 24px;
     height: 14px;
     cursor: pointer;
+    transform: rotate(0deg);
+    transition: transform 0.5s; /* Animation de rotation */
+}
+
+.vector.rotate180 {
+    transform: rotate(-180deg);
 }
 
 .collapse-content {
-    padding: 10px; 
-    background-color: #f6f6f6; 
-    color: #FF6060; 
+    max-height: 0;
+    overflow: hidden;
+    padding: 0;
+    background-color: #f6f6f6;
+    color: #FF6060;
     border-radius: 5px;
     padding-left: 20px;
     padding-right: 20px;
+    transition: max-height 0.5s;  /* Animation de déroulement/enroulement */
+    transform-origin: top;
+}
+
+.collapse-content.open {
+    max-height: 100px;
 }
