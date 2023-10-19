@@ -1,0 +1,30 @@
+.error404-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8.5em 0;
+    gap: 8.5em;
+    color : #FF6060;
+}
+
+.error404-title {
+    margin: 0;
+    font-size: 288px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.error404-text {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.error404-link {
+    font-size : 18px;
+    text-decoration: underline;
+    color: #FF6060;
+    cursor: grab;
+}

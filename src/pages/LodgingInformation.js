@@ -6,9 +6,9 @@ import Footer from '../components/Footer';
 const LodgingInformation = () => {
     return (
         <div>
-        <Header />
-        <Footer />
-    </div>
+            <Header />
+            <Footer />
+        </div>
     );
 };
 

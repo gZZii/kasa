@@ -1,17 +1,18 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Banner from '../components/Banner';
+import Error404 from '../components/Error404';
 
 
 
-const Error404 = () => {
+const PageNotFound = () => {
     return (
         <div>
             <Header />
+            <Error404 />
             <Footer />
         </div>
     );
 };
 
-export default Error404;
+export default PageNotFound;

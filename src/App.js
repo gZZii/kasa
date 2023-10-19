@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import LodgingInformation from './pages/LodgingInformation';
-import Error404 from './pages/Error404';
+import PageNotFound from './pages/PageNotFound';
 import index from './styles/index.scss'
 
 const App = () => {
@@ -13,7 +13,7 @@ const App = () => {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/lodgingInformation' element={<LodgingInformation />} />
-        <Route path='*' element={<Error404 />} />
+        <Route path='*' element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>
   );
