@@ -11,8 +11,6 @@ const Navigation = () => {
                 <NavLink to="/about">
                     <li>A propos</li>
                 </NavLink>
-                <NavLink to="/lodgingInformation"> {/*ne doit pas apparaitre sur les pages, seulement actif au clic du logement */}
-                </NavLink>
             </ul>
         </div>
     );
