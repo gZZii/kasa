@@ -5,7 +5,11 @@
     background-size: cover;
     display: flex;
     align-items: end; 
-    box-shadow: inset -4px -70px 45px -7px rgba(0, 0, 0, 0.7)
+    box-shadow: inset -4px -70px 45px -7px rgba(0, 0, 0, 0.7);
+
+    @media (max-width :1024px){
+        width: 100%;
+    }
 }
 
 .card-title{

@@ -3,6 +3,13 @@
         display: flex;
         gap: 20px;
         list-style-type: none;
+        font-weight: 500;
+        font-size: 24px;
+
+        @media (max-width:1024px) {
+            font-size: 12px;
+            text-transform: uppercase;
+        }
     };
 
     a{

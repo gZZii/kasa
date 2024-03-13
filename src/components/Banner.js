@@ -1,13 +1,11 @@
 import React from 'react';
 
-const Banner = (props) => {
- 
+const Banner = ({ img, children }) => {
     return (
-        <div className='banner' style={{backgroundImage: `url(${props.img})`}}>
-            <h1 className="banner-title">{props.text}</h1>
+        <div className='banner' style={{backgroundImage: `url(${img})`}}>
+            <h1 className="banner-title">{children}</h1>
         </div>
     );
 };
-
 
 export default Banner;

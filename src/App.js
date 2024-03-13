@@ -6,6 +6,8 @@ import LodgingInformation from './pages/LodgingInformation';
 import PageNotFound from './pages/PageNotFound';
 import index from './styles/index.scss'
 
+
+
 const App = () => {
   return (
     <BrowserRouter>

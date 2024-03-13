@@ -1,4 +1,20 @@
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em ;
+    margin-top: 2em;
+    font-size: 24px;
+
+        img {
+            width: 13.125em;
+            height: 4.25em;
+        }
+
+    @media (max-width:1024px) {
+        img {
+            width: 9.0625em;
+            height: 2.93em;
+        }
+    }
 }

@@ -1,0 +1,40 @@
+.overlay-carousel {
+    position: relative;
+    width: 100%;
+  }
+  
+  .carousel-image-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    border-radius: 10px;
+    height: 415px;
+    object-fit: cover;
+  }
+  
+  .carousel-controls-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
+  }
+
+  .carousel-counter {
+    position: absolute;
+    bottom: 10px; 
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff; 
+    font-size: 14px;
+  }

@@ -10,7 +10,9 @@ const Home = () => {
     return (
         <div>
             <Header />
-            <Banner img={homeBackgroundBanner} text="Chez-vous, partout et ailleurs" />
+            <Banner img={homeBackgroundBanner}>
+                Chez-vous,<br /> partout et ailleurs
+            </Banner>
             <Properties />
             <Footer />
         </div>

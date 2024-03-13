@@ -7,8 +7,29 @@
 @import "./components/properties";
 @import "./components/collapse";
 @import "./components/error404";
+@import "./components/carousel";
+@import "./components/informations";
 
 *{
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
+}
+
+body {
+    margin-left: 8em;
+    margin-right: 8em;
+
+
+    @media (max-width: 1024px) {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+};
+
+br {
+    display: none;
+
+    @media (max-width: 1024px) {
+        display: block;
+    }
 }

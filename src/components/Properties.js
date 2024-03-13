@@ -9,9 +9,10 @@ const Properties = () => {
     <div className='properties'>
         {data.map((item) => (
         <NavLink 
+            className="property-link"
             key={item.id} 
             to={`/lodgingInformation/${item.id}`} 
-            className="property-link">
+        >
           <Card
             title={item.title}
             altImage={item.description}
