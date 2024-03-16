@@ -17,4 +17,11 @@ header {
             height: 2.93em;
         }
     }
+
+    @media (max-width: 475px) {
+        img {
+            width: 7.5em;
+            height: 2.43em;
+        }
+}
 }

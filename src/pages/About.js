@@ -30,10 +30,12 @@ const About = () => {
     <div>
       <Header />
       <Banner img={aboutBackgroundBanner} />
-      <Collapse {...reliability} />
-      <Collapse {...respect} />
-      <Collapse {...service} />
-      <Collapse {...security} />
+      <div className="collapse-container">
+        <Collapse {...reliability} />
+        <Collapse {...respect} />
+        <Collapse {...service} />
+        <Collapse {...security} />
+      </div>
       <Footer />
     </div>
   );
