@@ -7,10 +7,20 @@ const Navigation = () => {
         <div className="navigation">
             <ul>
                 {/* NavLink components are used for routing between different application paths */}
-                <NavLink to="/">
+                <NavLink 
+                    to="/"
+                    style={({ isActive }) => ({
+                        textDecoration: isActive ? 'underline' : 'none'
+                    })}
+                >
                     <li>Accueil</li>
                 </NavLink>
-                <NavLink to="/about">
+                <NavLink 
+                    to="/about"
+                    style={({ isActive }) => ({
+                        textDecoration: isActive ? 'underline' : 'none'
+                    })}
+                >
                     <li>A propos</li>
                 </NavLink>
             </ul>

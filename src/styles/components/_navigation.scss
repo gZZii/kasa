@@ -16,6 +16,14 @@
         text-decoration: none;
     }
 
+    a.active{
+        color: $color-1;
+    }
+
+    .nav-link-active{
+        color: $color-1;
+    }
+
     li{
         color: $color-1
 
